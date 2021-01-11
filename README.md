@@ -1,8 +1,7 @@
 # GLEX-project
 
-GLEX is consented and mined from a mobile device. And the block chain data is stored on the mobile device.
-It's a project that started with the goal of a mobile-based network.
-Systematical cluster of devices enable to minimize resource use and it is possible to secure a lot of nodes by the widely distributed mobile devices.
+GLEX is a crypto currency that is distributed open source for privacy. 
+GLEX aims to maintain transmission between each other and to support fast transactions that are checked within seconds by the master nodes without going through unnecessary several steps, such as the formation of blocks.
 The network of GLEX is a very large network vertically with high availability, high data reliability. Also continuous scale-up is possible.
 
 <br>
@@ -14,18 +13,15 @@ Our team is currently in Seoul and consists mostly of competent members with mor
 The detailed department consists of a development team and legal team and communication team, etc.
 
 <br>
-<b> Web Site </b> : http://glex.dev <br/>
-<b> White Paper(chinese) </b> : https://glex.dev/cn_whitepaper_v1.pdf<br/>
-<b> White Paper(korean) </b> : https://glex.dev/whitepaper_v1.pdf
+<b> Web Site </b> : http://glexcoin.com/ <br/>
+<b> White Paper(korean) </b> : http://glexcoin.com/down/GLEX_whitepaper_kor_v1.2.pdf?ver=1.2<br/>
+<b> White Paper(english) </b> : http://glexcoin.com/down/GLEX_whitepaper_eng.pdf?ver=1.2
 
 <br>
 <br>
 <br>
 
 ## Exchange
-https://www.foblgate.com/
+https://vindax.com/
+(Eth market)
 
-<br>
-
-## Community
-<b> Telegram </b> : https://t.me/glex_officialcommunity
