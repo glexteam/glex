@@ -1,5 +1,5 @@
-var EMPTtoken = artifacts.require('EMPTtoken');
+var GLEXtoken = artifacts.require('GLEXtoken');
 
 module.exports = function(deployer) {
-    deployer.deploy(EMPTtoken);
+    deployer.deploy(GLEXtoken);
 };

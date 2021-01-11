@@ -1,11 +1,11 @@
 const { isMainThread } = require("worker_threads");
 const assert = require('assert');
 
-const EMPTtoken = artifacts.require('EMPTtoken');
+const GLEXtoken = artifacts.require('GLEXtoken');
 
-contract("EMPTtoken", accounts => {
-    it("should put 2880000000 EMPTtoken in the first account", () => 
-        EMPTtoken.deployed()
+contract("GLEXtoken", accounts => {
+    it("should put 2880000000 GLEXtoken in the first account", () => 
+        GLEXtoken.deployed()
         .then( instance => {
                 return instance.balanceOf.call(accounts[0]);
             }
@@ -19,30 +19,30 @@ contract("EMPTtoken", accounts => {
         })
     );
 
-    it( "has a name 'EMPTtoken' ", () => 
-        EMPTtoken.deployed()
+    it( "has a name 'GLEXtoken' ", () => 
+        GLEXtoken.deployed()
         .then( instance => {
                 return instance.name.call();
             }
         )
         .then(name => {
-            assert.equal(name,"EMPTtoken","name is not EMPTtoken");
+            assert.equal(name,"GLEXtoken","name is not GLEXtoken");
         })
     );
 
-    it( "has a symbol 'empt' ", () => 
-        EMPTtoken.deployed()
+    it( "has a symbol 'glex' ", () => 
+        GLEXtoken.deployed()
         .then( instance => {
                 return instance.symbol.call();
             }
         )
         .then(symbol => {
-            assert.equal(symbol,"empt","symbol is not empt");
+            assert.equal(symbol,"glex","symbol is not glex");
         })
     );
 
     it( "decimals is 18 ", () => 
-        EMPTtoken.deployed()
+        GLEXtoken.deployed()
         .then( instance => {
                 return instance.decimals.call();
             }

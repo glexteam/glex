@@ -10,7 +10,8 @@ import "./ERC20Detailed.sol";
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `ERC20` functions.
  */
-contract EMPTtoken is Context, ERC20, ERC20Detailed {
+ 
+contract GLEXtoken is Context, ERC20, ERC20Detailed {
     
     uint256 public totalSupplyofToken;
     address private owner;
@@ -31,10 +32,10 @@ contract EMPTtoken is Context, ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives _msgSender() all of existing tokens.
      */
-    constructor () public ERC20Detailed("EMPTtoken", "empt", 18) ERC20(_msgSender()) {
+    constructor () public ERC20Detailed("GLEX", "glex", 18) ERC20(_msgSender()) {
         
         owner = _msgSender();
-        totalSupplyofToken = 2880000000 * (10 ** uint256(decimals()));
+        totalSupplyofToken = 1212000000 * (10 ** uint256(decimals()));
         _mint(_msgSender(), totalSupplyofToken);
     }
     
